@@ -3,10 +3,9 @@ theme: jekyll-theme-hydeout
 markdown: kramdown
 highlighter: rouge
 
-# Setup
 title: Allan Vital
-tagline: 'Software and Stuff'
-description: 'Software Development and overall Problem Solving. <a href="/about" target="_blank">More about me</a>.'
+tagline: 'I build software and stuff'
+description: 'About Software Development, Problem Solving and the human side of tech. <a href="/about" target="_blank">More about me</a>.'
 
 hydeout:
   github: https://github.com/vitallan
