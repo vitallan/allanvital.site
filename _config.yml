@@ -1,0 +1,31 @@
+theme: jekyll-theme-hydeout
+
+markdown: kramdown
+highlighter: rouge
+
+# Setup
+title: Allan Vital
+tagline: 'A Jekyll theme'
+description: 'Software Development and overall Problem Solving. <a href="/about" target="_blank">More about me</a>.'
+
+hydeout:
+  github: https://github.com/vitallan
+
+author:
+  name: 'Allan Vital'
+  url: https://twitter.com/allanvital
+
+github: https://github.com/vitallan
+stackoverflow: https://stackoverflow.com/users/3632899/allan-vital
+twitter: https://twitter.com/allanvital
+linkedin: https://www.linkedin.com/in/allanvital/
+
+paginate: 5
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+sidebar_home_link: true
+sidebar_link: true

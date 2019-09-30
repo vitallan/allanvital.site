@@ -1,0 +1,33 @@
+<nav id="sidebar-icon-links">
+  
+  <a id="linkedin-link"
+     class="icon" title="Linkedin Profile" aria-label="Linkedin Profile"
+     href="{{ site.linkedin }}">
+    {% include svg/linkedin.svg %}
+  </a>
+
+  <a id="stackoverflow-link"
+     class="icon" title="Stackoverflow Profile" aria-label="Stackoverflow Profile"
+     href="{{ site.stackoverflow }}">
+    {% include svg/stackoverflow.svg %}
+  </a>
+
+  <a id="github-link"
+     class="icon" title="Github Profile" aria-label="Github Profile"
+     href="{{ site.github }}">
+    {% include svg/github.svg %}
+  </a>
+
+  <a id="twitter-link"
+     class="icon" title="Twitter Profile" aria-label="Twitter Profile"
+     href="{{ site.twitter }}">
+    {% include svg/twitter.svg %}
+  </a>
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
+    {% include svg/feed.svg %}
+  </a>
+
+</nav>
