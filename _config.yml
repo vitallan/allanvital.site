@@ -26,8 +26,5 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-
-google_analytics: UA-70145133-1
-
 sidebar_home_link: true
 sidebar_link: true
