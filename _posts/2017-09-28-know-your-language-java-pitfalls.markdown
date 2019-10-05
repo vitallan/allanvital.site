@@ -21,10 +21,9 @@ Sticking to code and design, let's see what are the most common pitfalls I've se
 
 #### Complex Build
 Pretty simple. You do your clone, access the directory and do a build command
-
-```
+{% highlight java %}
 ./gradlew build
-```
+{% endhighlight %}
 And then it fails.
 
 Usually this means an environment dependency or a manually added hosts to run the build or tests. Unless your build actually runs in a single command, you are doing it wrong. 
@@ -40,26 +39,24 @@ Simple example, a Strategy Pattern. In cool words Strategy is a way that enables
 **[Wikipedia example:](https://en.wikipedia.org/wiki/Strategy_pattern)**
 
 Interface with price calculation
-
-```
+{% highlight java %}
 interface BillingStrategy {
     double getActPrice(final double rawPrice);
 }
-```
-
+{% endhighlight %}
 First implementation
 
-```
+{% highlight java %}
 class NormalStrategy implements BillingStrategy {
     @Override
     public double getActPrice(final double rawPrice) {
         return rawPrice;
     }
 }
-```
+{% endhighlight %}
 
 Second implementation
-```
+{% highlight java %}
 class HappyHourStrategy implements BillingStrategy {
 
     @Override
@@ -68,10 +65,10 @@ class HappyHourStrategy implements BillingStrategy {
     }
 
 }
-```
+{% endhighlight %}
 
 We could have our customer class:
-```
+{% highlight java %}
 class Customer {
     /* fields */
     public Customer(final BillingStrategy strategy) {
@@ -89,9 +86,9 @@ class Customer {
 
 }
 
-```
+{% endhighlight %}
 And now we can use it neatly:
-```
+{% highlight java %}
 public class StrategyPatternWiki {
 
     public static void main(final String[] arguments) {
@@ -105,13 +102,13 @@ public class StrategyPatternWiki {
         firstCustomer.add(1.0, 2);
     }
 }
-```
+{% endhighlight %}
 
 Cool right? How can it be bad? Let's apply this everywhere!
 
 But there is a catch, even in this simple example. How do I know when to use HappyHourStrategy or NormalStrategy? Can I hide this specific if with another strategy? If yes, would it be better than a single if? Maybe, instead of this, I could add in the customer class:
 
-```
+{% highlight java %}
 class Customer {
 ...
     public void add(final double price, final int quantity) {
@@ -119,9 +116,9 @@ class Customer {
     }
 ...
 }
-```
+{% endhighlight %}
 And then
-```
+{% highlight java %}
 class FloatingPriceCalculator {
     public double getCurrentPrice(final double rawPrice) {
         if (isHappyHourTime()){
@@ -131,7 +128,7 @@ class FloatingPriceCalculator {
         }
     }
 }
-```
+{% endhighlight %}
 
 Is it so bad? You're making the decision in a single IF-ELSE instead of building an indirection layer, and besides it, still in a single point, in case you need to refactor or read it. If this if else grow in number, maybe it is time to refactor, but right now, I think it is good enough.
 
@@ -141,39 +138,39 @@ Design patterns are tools, not the only way to do something.
 
 Functional interfaces are awesome. It can really make your code more elegant and simple. Let's take a look, using [OReilly](https://www.oreilly.com/learning/java-8-functional-interfaces) as a resource.
 
-```
+{% highlight java %}
 @FunctionalInterface
 public interface Runnable {
   public void run();
 }
-```
+{% endhighlight %}
 
 In the old days, we would use it like this:
-```
+{% highlight java %}
 Thread thread1 = new Thread(new Runnable() {
     @Override
     public void run(){
         System.out.println("Run now!");
     }
 });
-```
+{% endhighlight %}
 With Java8 and Lambdas, the compiler knows that you are calling the single method from the functional interface. 
-```
+{% highlight java %}
 Runnable task1 = () -> { System.out.println("run you damn!"); };
 new Thread(task1).start();
-```
+{% endhighlight %}
 
 Neat, right? The "()" syntax is useful because you can just pass the arguments there and the compiler knows the types.
 
 The problems arise when you try to build a DSL for fluent language with this, because nowadays you see things like:
-```
+{% highlight java %}
 maClass.needDoThis()
        .AndThis()
        .withALittleBitOfThis()
        .andNowDone();
-```
+{% endhighlight %}
 And to build this, you create a single functional interface for each of the dots, like this:
-```
+{% highlight java %}
 public interface AndThis {
     LittleBitOfThis andThis();
 }
@@ -183,9 +180,9 @@ public interface LittleBitOfThis {
 public interface NowDone {
     void andNowDone();
 }
-```
+{% endhighlight %}
 And in maClass.needDoThis() you get:
-```
+{% highlight java %}
 public class MaClass{
     public void needDoThis() {
         () -> () -> () -> {
@@ -193,7 +190,7 @@ public class MaClass{
         }
     }
 }
-```
+{% endhighlight %}
 I've seen it more than once. Don't do this. You created a lot of complication just to make a pretty oneliner, which, in the end, is just a single method anyway. Wouldn't be easier if you just called the method?
 
 #### Poor (or overused) OO 
@@ -206,7 +203,7 @@ A great smell of bad class design is the `instanceof` operator used a lot. It, o
 
 A bad example from [StackOverflow](https://stackoverflow.com/a/13292073/3632899):
 
-```
+{% highlight java %}
 class Cage {
   public static Cage createCage(Animal animal) {
     if (animal instanceof Dog)
@@ -221,9 +218,9 @@ class Cage {
       return new GenericCage();
   }
 }
-```
+{% endhighlight %}
 You could replace and put the responsibility inside the Animal interface:
-```
+{% highlight java %}
 interface Animal {
   Cage getCage();
 }
@@ -235,7 +232,7 @@ class Dog implements Animal {
   }
   ...
 }
-```
+{% endhighlight %}
 
 (I know, it's just an academic example, but you got the idea)
 
