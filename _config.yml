@@ -14,6 +14,8 @@ author:
   name: 'Allan Vital'
   url: https://twitter.com/allanvital
 
+url: "https://allanvital.com" 
+
 github: https://github.com/vitallan
 stackoverflow: https://stackoverflow.com/users/3632899/allan-vital
 twitter: https://twitter.com/allanvital
@@ -25,6 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 
 sidebar_home_link: true
 sidebar_link: true
