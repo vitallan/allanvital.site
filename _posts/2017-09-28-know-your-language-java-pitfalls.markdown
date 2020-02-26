@@ -245,7 +245,7 @@ Again, the problem with it is the layer of abstraction that you put in your code
 
 As a rule of thumb, use Reflection to build frameworks, [because they need to be able to call yet nonexistent code](https://www.quora.com/Whats-the-difference-between-a-library-and-a-framework/answer/Kurt-Guntheroth-1?srid=oiBW). To build your applications, avoid it always.
 
-[There are some examples here, and you can see why it is so bad.](https://examples.javacodegeeks.com/core-java/reflection/java-reflection-example/)
+[Java Reflection Example.](https://examples.javacodegeeks.com/java-reflection-example/)
 
 #### Aspect Overuse 
 
