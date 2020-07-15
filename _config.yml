@@ -28,6 +28,11 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 
 sidebar_home_link: true
 sidebar_link: true
+
+languages: ["en", "pt"]
+
+exclude_from_localizations: ["javascript", "images", "css", "assets"]
