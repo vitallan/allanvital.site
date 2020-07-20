@@ -1,62 +1,62 @@
 ---
 layout: post
-title: About Software Estimates
+title: Sobre Estimativas em Software
 date: '2017-07-22 22:13:44'
-permalink: why-estimates-never-work
+permalink: porque-estimativas-nunca-funcionam
 tags:
 - project-management
 - estimates
 ---
 
-There sure is a lot of [talk and work about estimates in software development](https://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3). Whether you are in a big company, a small agency or a "one-man army" project, the idea that you can predict how long will it take to build a system is widespread and adopted by all. 
+Todo mundo sempre fala sobre [estimativas no desenvolvimento de software](https://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3). Esteja você em uma grande empresa, em uma pequena agência ou em um projeto "exército de um homem só", a idéia de que você pode prever quanto tempo levará para construir um sistema é replicada por todos.
 
-Any management principle or project schedule has it as a bare minimum to operate. This is useful so you can plan in advance, and tackle the projects in a sane order, avoiding obvious trap holes and business errors. In a multiple-team environment, it is used to coordinate the deliverables in a way that one team does not block the other one, therefore mapping the dependencies and fitting the work appropriately.
+Qualquer princípio de gerenciamento ou cronograma de projeto precisa disso como o mínimo necessário para operar. Isso é útil para que você possa planejar com antecedência e organizar os projetos em uma ordem que faça sentido, evitando buracos óbvios e erros de negócios. Em um ambiente de várias equipes, o prazo é usado para coordenar os resultados de uma maneira que uma equipe não bloqueie a outra, mapeando as dependências e ajustando o trabalho adequadamente.
 
-The only problem is that, in the majority of cases, software estimates are **wrong**. Often, by a large margin.
+O único problema é que, na maioria dos casos, as estimativas de software estão *erradas*. Normalmente, de maneira colossal.
 
-[It is probably one of the most analyzed problems in the industry](https://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3), and yet, one of the most unresolved ones.
+[É provavelmente um dos problemas mais analisados ​​no setor](https://www.quora.com/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3), e ainda assim, um dos mais não resolvidos.
 
-### The Elephant in The Room
+### O elefante na sala
 
-[Software projects estimates fail hard since the dawn of software](http://calleam.com/WTPF/?tag=examples-of-failed-it-project).
+[As estimativas de projetos de software falham gravemente desde o início do software](http://calleam.com/WTPF/?tag=examples-of-failed-it-project).
 
-In the old days, with methodologies like Waterfall, this problem was usually lost in the middle of the whole process. It was easy to blame the testers about the time it was taking to find bugs, and easier still to blame operations about the delays occurring during deploy attempts. The segmentation of the whole flow, and the idea that project time consisted mainly of "Coding Phase" kept the specific Feature Estimation problem hidden. Creating cross functional teams to solve this helped in the way of identifying and bringing the flawed process to light, but could do little in a months (or years) long project.
+Antigamente, com metodologias como o *Waterfall*, esse problema geralmente se perdia no meio de todo o processo. Era fácil culpar os testadores pelo tempo que levava para encontrar bugs e ainda mais fácil culpar as operações pelos atrasos ocorridos durante as tentativas de implantação. A segmentação de todo o fluxo e a ideia de que o tempo do projeto consistia principalmente na "Fase de codificação" mantinha oculto o problema específico de estimativa de recursos. Criar equipes multifuncionais para resolver isso ajudou a identificar e trazer à luz o processo defeituoso, mas poderia fazer pouco em um projeto de meses (ou anos).
 
-The blooming of Agile, carried by Agile Manifesto, acknowledged this problem and created a lot of ways to deal with it. There are Fibonacci Sequences, T-Shirt Sized User Stories, Sprint Velocity and many others, and the idea of breaking whole projects in a series of small features minimized the problem, because, of course, a missed week estimate is a lot better than a month long one. Another brilliant improvement above the older methods is the reaction and prioritization brought to the table by a clear feature list in the hands of the product owner and stakeholders. Being able to change course during the so called "Building Phase" is, probably, the single most valuable lesson that Agile brought to the software world.
+O crescimento do Ágil, realizado pelo [Manifesto de Desenvolvimento de Software Ágil](https://agilemanifesto.org/), reconheceu esse problema e criou várias maneiras de lidar com ele. Existem sequências de Fibonacci, histórias de usuários do tamanho de camisetas, velocidade de sprint e muitas outras, e a idéia de quebrar projetos inteiros em uma série de pequenos minimizou o problema, porque, é claro, uma estimativa com uma semana perdida é muito melhor do que uma de um mês. Outra melhoria brilhante em comparação com os métodos mais antigos é a reação a mudanças, e o conceito de priorização de tarefas feito diretamente pelo interessado final no projeto. Ser capaz de mudar de rumo durante a chamada "Fase de Construção" é, provavelmente, a lição mais valiosa que o Manifesto Ágil trouxe ao mundo do software.
 
-(that we should always be on the "Building Phase" is a matter to another post)
+(que devemos estar sempre na "Fase de construção" é uma questão para outro post)
 
-With the sum of cross functional teams, feature slicing and prioritization we were able to bring everyone involved in the process in a way that makes it clear the efforts of software building. With this, we could explain why feature X is taking so long to complete, and why team Y is performing good. The rate of deliveries and the delivered value of each part became clear and more palpable.
+Com a soma de equipes multifuncionais, fateamento de backlog e priorização, conseguimos trazer todos os envolvidos ao processo deixando claro os esforços de construção de software. Com isso, pudemos explicar por que a feature X está demorando tanto para ser concluída e por que a equipe Y está se saindo bem. A taxa de entregas e o valor entregue de cada fase tornou-se claro e mais palpável.
 
-However, the real, long time, projects, still miss the deadline. It is so widespread that some companies just don't estimate anymore, and, even with the transparency of the whole process, we still struggle to find any sane method that brings some level (any level) of assertiveness.
+No entanto, os projetos reais e de longo prazo ainda perdem o prazo. É algo tão difundido e aceito que algumas empresas simplesmente não fazem mais estimativas e, mesmo com a transparência de todo o processo, ainda lutamos para encontrar qualquer método sensato que traga algum nível (qualquer nível) de assertividade.
 
-### Why Should We Care?
+### Por que devemos nos importar?
 
-I'm a huge fan of the [Software Craftsman Manifesto](http://manifesto.softwarecraftsmanship.org/). I think that, in the current state of the market, Software Development is closer to art than it is to science. Take ten developers and ask every one of them the same task. Watch as they will come to you in different times, with different questions about the task and completely different solutions, each one with some special weird moving part.
+Sou um grande fã do [Manifesto do Artesão de Software](http://manifesto.softwarecraftsmanship.org/). Penso que, no estado atual do mercado, o desenvolvimento de software está mais próximo da arte do que da ciência. Pegue dez desenvolvedores e peça a cada um deles a mesma tarefa. Observe como eles chegarão a você em momentos diferentes, com perguntas diferentes sobre a tarefa e soluções completamente diferentes, cada uma com uma parte que se move de forma estranha.
 
-(that is the reason why I think Software Developers, despite the stress, are [usually happy with their occupation](https://www.forbes.com/pictures/mkl45eeilm/no-6-happiest-job-software-developer/#4f7da09b6186). Maybe not happy in their company, but happy with their craft)
+(essa é a razão pela qual acho que os desenvolvedores de software, apesar do estresse, [geralmente estão felizes com sua ocupação](https://www.forbes.com/pictures/mkl45eeilm/no-6-happiest-job-software-developer/#4f7da09b6186). Talvez não feliz com a empresa, mas com o ofício)
 
-This is, obviously, a problem to any serious business. [Planning in advance, and most importantly planning assertively, is the difference between life and death of a company](http://www.nasdaq.com/article/the-importance-of-business-planning-cm59436). This is the current way of calculating budget values, monitoring goals and defining a project success or failure, and failing to do so is what makes the "IT Department" the most complex to run in any kind of industry field.
+Obviamente, isso é um problema para qualquer negócio sério. [Planejar com antecedência e, mais importante, planejar assertivamente, é a diferença entre a vida e a morte de uma empresa](http://www.nasdaq.com/article/the-importance-of-business-planning-cm59436). Essa é a maneira atual de calcular valores de orçamento, monitorar metas e definir o sucesso ou o fracasso de um projeto. Deixar de fazer isso é o que torna o "Departamento de TI" o mais complexo a ser gerido em qualquer tipo de indústria.
 
-[Failing to bring any type of real and assertive estimates is an industry wide fail and hurts all sectors that depend on software](https://en.wikipedia.org/wiki/List_of_failed_and_overbudget_custom_software_projects) (in today's world, that is "all sectors"). Solving it, or just improving it a little, would bring us closer to more mature forms of engineering.
+[Não apresentar qualquer tipo de estimativa real e assertiva é uma falha de todo o setor e prejudica todos os setores que dependem de software](https://en.wikipedia.org/wiki/List_of_failed_and_overbudget_custom_software_projects) (no mundo de hoje, isso significa, "todos os setores "). Resolvê-lo, ou apenas melhorá-lo um pouco, nos aproximaria de formas mais maduras de engenharia.
 
-(That's why I usually avoid the term "Software Engineer", but that is also a topic for another post)
+(É por isso que geralmente evito o termo "Engenheiro de software", mas esse também é um tópico para outro post)
 
-### Industry Approaches So Far
+## Abordagens atuais
 
-As said above, the Agile Manifesto addressed this issue and brought some ways to mitigate it. I'll list bellow some of the approaches that I experienced, and my opinion about them.
+Como dito acima, o Manifesto Ágil abordou esse problema e trouxe algumas maneiras de mitigá-lo. Vou listar abaixo algumas das abordagens que experimentei e minha opinião sobre elas.
 
-* **[Fibonacci Points](https://en.wikipedia.org/wiki/Fibonacci_scale_(agile))**: The most raw form of small time estimate. Scrum popularized it. The main problem with this one is that a 13 sized story is not the same than two 5s and one 3 (!). That is why it doesn't help in measuring the team velocity, therefore, failing to bring any type of assertiveness.
-* **[Function Points](https://www.codeproject.com/Articles/18024/Calculating-Function-Points)**: This one is really complicated and... well, bad. It calculates a number that symbolizes the complexity of the requirements, based on user inputs and outputs and external interfaces (among other things). Since user inputs are one different from another, and external interfaces are hugely different among each other (try to integrate with a Rest and a Soap web service and tell me how long will each one take) the number always fails. 
-* **Stories of same size**: Try to slice your stories all in a similar size so you can take a median of the time spent in each. This way you will know that if a project has X stories, it'll take X * time per story to finish. The tricky part is: "How to slice stories in the same size?"
-* **[T Shirt Sizes](https://www.mountaingoatsoftware.com/blog/estimating-with-tee-shirt-sizes)**: More sane than Fibonacci points, because a *M* sized story is not the same size than two *P* sized ones. However this brings two problems: identifying the difference between a *M* and a *G* (and so on) and calculating the appropriate sprint size. Simply put, if your team spent three months doing only *M* sized ones, now that you only have *G*s, how many ones they can tackle this month? 
+* **[Pontos de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_scale_(agile))**: A forma mais rudimentar estimativa de tempo. O Scrum que a popularizou. O principal problema com este é que uma história de tamanho 13 não é igual a duas de 5 e uma de 3 (!). É por isso que não resolve de fato o problema de medir a velocidade da equipe.
+* **[Pontos de função](https://www.codeproject.com/Articles/18024/Calculating-Function-Points)**: Este é realmente complicado e ... bem, ruim. Ele calcula um número que simboliza a complexidade dos requisitos, com base nas entradas e saídas do usuário e interfaces externas (entre outras coisas). Como as entradas do usuário são diferentes umas das outras e as interfaces externas podem variar muito entre si (tente integrar-se a um serviço da web Rest e Soap e me diga quanto tempo levará cada uma), o número sempre falha.
+* **Histórias do mesmo tamanho**: tentar dividir todas as suas histórias em um tamanho semelhante para poder tirar uma mediana do tempo gasto em cada uma. Dessa forma, você saberá que, se um projeto tiver X histórias, levará Y tempo por história para concluir. A parte complicada é: "Como fatiar histórias com um mesmo tamanho?"
+* **[Tamanhos de camiseta](https://www.mountaingoatsoftware.com/blog/estimating-with-tee-shirt-sizes)**: Mais sensato do que os pontos de Fibonacci, porque uma história do tamanho *M* não é a mesmo tamanho que dois *P*. No entanto, isso traz dois problemas: identificar a diferença entre a *M* e a *G* (e assim por diante) e calcular o tamanho apropriado do sprint. Simplificando, se sua equipe passou três meses fazendo apenas *M*, agora que você tem apenas *G*, quantas histórias eles podem encarar este mês?
 
-### Conclusion
+## Conclusão
 
-There is no simple solution to the problem, but the best way to mitigate it is to break the work in small steps. Personally, I don't like to break it too small, because every story has an overhead in the process (that is, a story that is just a character change will take longer to write and validate than it is worth), but a "less than a week" size is good enough.
+Não existe uma solução simples para o problema, mas a melhor maneira de atenuá-lo é quebrar o trabalho em pequenas etapas. Pessoalmente, não gosto de diminuir muito, porque toda história tem uma sobrecarga no processo (ou seja, uma história que é apenas uma mudança de caracter levará mais tempo para ser escrita e validada do que vale a pena), mas algo com "menos de uma semana" é mais que o suficiente.
 
-In my experience, it is worth to try to break the stories in the same size, or the most close to it possible. The main caveat is that developers will need to help slice the stories, because they are the only ones capable (since they know the system internals). You will also need to be OK with not optimal slices in favor of predictability.
+Na minha experiência, vale a pena tentar fatiar as histórias para que fiquem do mesmo tamanho, ou o mais próximo disso possível. A principal ressalva é que os desenvolvedores precisarão ajudar a dividir as histórias, porque eles são os únicos capazes (já que conhecem os sistemas). Você também precisará estar confortável com fatias não ideais em prol da previsibilidade.
 
-Also, it all come down to expectation management. Make clear to everyone involved the plans and milestones. When stories start to prolong beyond expected, reexamine the problem and estimates. Broadcast the walkthrough. This way, the stakeholders can plan and react accordingly.
+Além disso, tudo se resume ao gerenciamento de expectativas. Deixe claro para todos os envolvidos os planos e marcos. Quando as histórias começarem a se prolongar além do esperado, reexamine o problema e as estimativas. Transmita o passo a passo. Dessa forma, as partes interessadas podem planejar e reagir de acordo.
 
-It sure doesn't solve the problem, but mitigate it and turns the process in a healthy and transparent one.
+Com certeza não resolve o problema, mas o mitiga e transforma o processo em algo mais saudável e transparente

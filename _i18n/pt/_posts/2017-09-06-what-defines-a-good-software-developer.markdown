@@ -1,87 +1,87 @@
 ---
 layout: post
-title: What defines a good Software Developer?
+title: Como medir a performance de um Desenvolvedor de Software
 date: '2017-09-06 14:44:51'
-permalink: what-defines-a-good-software-developer
+permalink: como-medir-a-performance-de-um-desenvolvedor-de-software
 tags:
 - developer-performance
 - team-building
 ---
 
-There are hundreds of interview techniques, thousand of tools, each with a corresponding required knowledge to work with, countless "classic" algorithms and a myriad of different types of projects to try to evaluate a Software Developer. Yet, it is not easy to, nor formally or mathematically, separate a good Developer from a bad one. Why?
+Existem centenas de técnicas de entrevista, milhares de ferramentas, cada uma com o conhecimento necessário correspondente para trabalhar, inúmeros algoritmos "clássicos" e uma infinidade de tipos diferentes de projetos para tentar avaliar um desenvolvedor de software. No entanto, não é fácil, separar um bom de um ruim, seja de maneira formal ou não. Por quê?
 
-As always, there's no easy answer to this question. The main reason for this is, perhaps, that we don't know what a Software Developer actually does. Software creation is not a mechanical task, and, even if it was, writing software, in many cases, is **not** the main assignment of a software developer.
+Como sempre, não há uma resposta fácil para essa pergunta. A principal razão para isso é, talvez, que não sabemos o que um desenvolvedor de software realmente faz. A criação de software não é uma tarefa mecânica e, mesmo que fosse, escrever software, em muitos casos, **não** é a principal atribuição de um desenvolvedor de software.
 
-Even identifying this problem is a matter of debate. Saying that the main job of a Software Developer is not to develop software will surely raise a discussion, and I can understand that. But I think the real issue is that, even if we agree with this, we don't know what "develop software" actually is. Is it writing a program? Is it finding the right tool for the task? Is it debugging a system? And, if you answer "All of the above"... well, how do you measure each one of these? If you can't measure, you can't categorically say who is a good Developer. 
+Mesmo identificar esse problema é uma questão de debate. Dizer que o principal trabalho de um desenvolvedor de software não é desenvolver software certamente suscitará uma discussão, e eu posso entender isso. Mas acho que o verdadeiro problema é que, mesmo que concordemos com isso, não sabemos o que é "desenvolver software". Está escrevendo um programa? Está encontrando a ferramenta certa para a tarefa? Está depurando um sistema? E, se você responder "Todas as opções acima" ... bem, como você mede cada uma delas? Se você não pode medir, não pode dizer categoricamente quem é um bom desenvolvedor.
 
-#### Levels of education and formal knowledge
+### Níveis de educação e conhecimento formal
 
-One of the most basic ways to filter job applicants is to evaluate their formal knowledge of computer science. That's when we give a test asking things about algorithm complexity or ask some classic sorting problem.
+Uma das maneiras mais básicas de filtrar candidatos a emprego é avaliar seus conhecimentos formais em ciência da computação. É quando fazemos um teste perguntando coisas sobre a complexidade do algoritmo ou perguntamos sobre algum problema clássico de classificação.
 
-This fails on some levels. Even though knowledge of these is good, there are a lot of jobs in which the applicant would never use it in the company. Why bother asking about merge sort if the main assignment will be a simple CRUD application? Further still, if it's not a pressing issue, why can't you hire and teach?
+Isso falha em alguns níveis. Embora o conhecimento deles seja bom, há muitos empregos em que o candidato nunca o utilizaria na empresa. Por que se incomodar em perguntar sobre a classificação de mesclagem se a tarefa principal será um aplicativo CRUD simples? Além disso, se não é uma questão premente, por que você não pode contratar e ensinar?
 
-That kind of evaluation brings the worst type of interview: "Write in the white board a quick sort". If you failed in memorize all those 28 "classic code interview question", you failed.
+Esse tipo de avaliação traz o pior tipo de entrevista: "Escreva rapidamente no quadro branco". Se você falhou em memorizar todas essas 28 "perguntas clássicas da entrevista de código", você falhou.
 
-[I really, really, really hate the idea that you will need to read a book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) just to pass in an interview for a job. And, the worst thing is: even if your applicant can solve these problems at point blank, it's not guaranteed that he will perform good with the stack and tool set of your environment.
+[Eu realmente odeio a idéia de que você precisará ler um livro](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X) apenas para passar em uma entrevista para um trabalho. E o pior é que, mesmo que o candidato possa resolver esses problemas à queima-roupa, não é garantido que ele tenha um bom desempenho com a pilha e o conjunto de ferramentas do seu ambiente.
 
-#### Tooling knowledge
+#### Conhecimento em ferramentas
 
-Every software developer worth his salt has some stack or tools in which they are comfortable. Better still, they should have lots of tools in their skill set, because this avoids the common pitfall in which "when your only tool is a hammer, everything looks like a nail".
+Todo desenvolvedor de software que se preze tem uma pilha ou ferramentas com as quais se sente confortável. Melhor ainda, eles devem ter muitas ferramentas em seu conjunto de habilidades, porque isso evita a armadilha comum em que "quando sua única ferramenta é um martelo, tudo parece um prego".
 
-But, as I said before, [we should always be careful about the right tool for the right job](http://allanvital.com/be-careful-with-the-right-tool-for-the-right-job/). Besides, relaying only in tooling you will miss good fits just because they don't know some of the tools used in your environment.
+Mas, como eu disse antes, [devemos sempre ter cuidado com a ferramenta certa para o trabalho certo](/pt/cuidado-com-o-discurso-de-ferramenta-certa-para-o-trabalho). Além disso, ao retransmitir apenas as ferramentas, você perderá bons ajustes apenas porque eles não conhecem algumas das ferramentas usadas em seu ambiente.
 
-And when all is said and done, how do you measure if a software developer knows how to use some tool? They might have learned it, read it somewhere, but might fail in actually using it in a real world problem. We go back to the "what actually you do?". 
+E quando tudo estiver dito e feito, como você mede se um desenvolvedor de software sabe como usar alguma ferramenta? Eles podem ter aprendido, lido em algum lugar, mas podem falhar em realmente usá-lo em um problema do mundo real. Voltamos ao "o que você realmente faz?".
 
-#### Different performance in different companies
+#### Desempenho diferente em diferentes empresas
 
-Another problem of the measuring job is that a good Software Developer in company A can be a terrible Software Developer in company B. Even if these companies share the same technological stack. There are countless ways that a company differs from another, and every one of these can hinder the performance of a software developer.
+Outro problema do trabalho de medição é que um bom desenvolvedor de software na empresa A pode ser um péssimo desenvolvedor de software na empresa B. Mesmo que essas empresas compartilhem a mesma pilha tecnológica. Existem inúmeras maneiras pelas quais uma empresa difere da outra e cada uma delas pode prejudicar o desempenho de um desenvolvedor de software.
 
-Take a "Good" developer from a big company. He must be able to survive the bureaucracy to bring his problem solving skills to the table. He might not be the brightest coder, but he will be able to thrive and bring results in such environment.
+Pegue um desenvolvedor "Bom" de uma grande empresa. Ele deve ser capaz de sobreviver à burocracia para trazer suas habilidades de resolução de problemas para a mesa. Ele pode não ser o codificador mais inteligente, mas será capaz de prosperar e trazer resultados nesse ambiente.
 
-On the other hand, a "Good" developer from a small company will probably need to be fast in delivering features. He might not build the most maintainable systems in the long run, but will surely be the best bet in this scenario.
+Por outro lado, um desenvolvedor "Bom" de uma pequena empresa provavelmente precisará ser rápido no fornecimento de recursos. Ele pode não criar os sistemas mais sustentáveis ​​a longo prazo, mas certamente será a melhor aposta nesse cenário.
 
-(both scenarios are completely hypothetical. Any similarity with reality is pure coincidence)
+(ambos os cenários são completamente hipotéticos. Qualquer semelhança com a realidade é pura coincidência)
 
-If we exchange the developers, there is a high change that they will be labeled as "Bad" developers in each company, even with equal tooling, stack and technical knowledge. Worse, there is a high change that both will not tolerate the work conditions.
+Se trocarmos os desenvolvedores, há uma grande mudança que eles serão rotulados como desenvolvedores "Ruins" em cada empresa, mesmo com ferramentas, pilha e conhecimento técnico iguais. Pior, há uma grande mudança em que ambos não toleram as condições de trabalho.
 
-(of course, we could find the so famous "rock star developer" that can operate in every level of any company of any size... but it's a really rare fish)
+(é claro, poderíamos encontrar o tão famoso "desenvolvedor de rock star" que pode operar em todos os níveis de qualquer empresa de qualquer tamanho ... mas é um peixe realmente raro)
 
-#### Teams
+#### Equipes
 
-After we fail to measure what is a good software developer, we reach the next level of difficulty: we usually work in teams, and, even though teams are the sure way to build something sustainable and good, it is also one of the easier ways to go "under the radar". If your team of four developers are delivering good, how can you know which one are performing great and which ones are poorer? This is necessary for a lot of reasons, that goes from training to promotions and raises.
+Depois de não conseguirmos medir o que é um bom desenvolvedor de software, atingimos o próximo nível de dificuldade: geralmente trabalhamos em equipes e, mesmo que as equipes sejam o caminho certo para criar algo sustentável e bom, é também uma das maneiras mais fáceis. ir "sob o radar". Se sua equipe de quatro desenvolvedores está fornecendo bons resultados, como você pode saber qual deles tem um ótimo desempenho e quais são mais pobres? Isso é necessário por várias razões, que vão do treinamento a promoções e aumentos.
 
-This one is specially hard. If one of the developers commit less code (crappy metric, I know), is it because he is not working right, or is it because he is helping and pairing with the others? Worse still, is he heroically interfacing with the stakeholders and breaking the features in technical tasks? Is he correcting the delivery pipeline? Or is he... bad? (some of these are actually measurable, I know, but in some cases it is not that simple).
+Este é especialmente difícil. Se um dos desenvolvedores compromete menos código (métrica de baixa qualidade, eu sei), é porque ele não está funcionando direito ou porque ele está ajudando e emparelhando-se com os outros? Pior ainda, ele está heroicamente interagindo com as partes interessadas e quebrando os recursos em tarefas técnicas? Ele está corrigindo o pipeline de entrega? Ou ele é ... ruim? (alguns deles são realmente mensuráveis, eu sei, mas em alguns casos não é tão simples).
 
-Also, teams are organically complex beings. What makes a team good is not easily definable (probably as hard as defining a good software developer), and team members that perform really well in one can be the drawback in another. Does that mean that this player were bad all along, or does this mean that he doesn't fit with the new environment? How can you answer this question?
+Além disso, as equipes são seres organicamente complexos. O que torna uma equipe boa não é facilmente definível (provavelmente tão difícil quanto definir um bom desenvolvedor de software), e os membros da equipe que executam muito bem em uma podem ser a desvantagem em outra. Isso significa que esse jogador era ruim o tempo todo ou significa que ele não se encaixa no novo ambiente? Como você pode responder a essa pergunta?
 
-#### What the hell does a Software Developer actually do?
+#### O que diabos um desenvolvedor de software realmente faz?
 
-A ton of things, actually.
+Uma tonelada de coisas, na verdade.
 
-In smaller environments (startups mostly) the software developer usually codes and ships a lot. When you are trying to get something out there fast, and your customer base is smaller enough, your main issue is to get new features and improving your product as fast as possible. Probably, your production issues won't eat your whole time, and you might be able to extinguish fires and keep the quick production and shipping dates. In such experience, you will probably be measured in your tickets moved to "done" and your ability to solve production issues quick, in a way that doesn't interfere with your coding speed.
+Em ambientes menores (principalmente startups), o desenvolvedor de software geralmente codifica e envia muito. Quando você está tentando divulgar algo rapidamente, e sua base de clientes é menor o suficiente, o problema principal é obter novos recursos e melhorar o seu produto o mais rápido possível. Provavelmente, seus problemas de produção não durarão o tempo todo e você poderá apagar incêndios e manter as rápidas datas de produção e entrega. Nessa experiência, você provavelmente será medido em seus tickets movidos para "concluído" e em sua capacidade de resolver problemas de produção rapidamente, de uma maneira que não interfira na sua velocidade de codificação.
 
-In medium sized companies (I draw the line at 100 employees) you will probably start to lose speed. In most cases, you will need to hire specific operation people for your production outages so that you can keep the developers focused in the tasks. You will also need other specific titles, people that can prioritize the best tasks and efforts, business analysts to understand the idea and plan new directions. Since the environment became more complex, your team will need to, besides the obvious code skills, start communicating with all these areas. It's unfair to ask these people what is easier and faster to do inside your codebase, so, for them to be able to plan correctly, your team will start going to meetings and be able to explain it. Unfortunately you will need to start estimating your stories, which sometimes is overlooked in smaller companies. From coding and fire fighting, you now need people that can help business more closely, oiling the engines of the whole. Your dev team will need to interface with operations also, building solutions together, so the production environment keep sane and maintainable.
+Nas empresas de médio porte (eu defino 100 funcionários), você provavelmente começará a perder velocidade. Na maioria dos casos, você precisará contratar pessoal de operação específico para suas quedas de produção, para manter os desenvolvedores focados nas tarefas. Você também precisará de outros títulos específicos, pessoas que possam priorizar as melhores tarefas e esforços, analistas de negócios para entender a idéia e planejar novas direções. Como o ambiente se tornou mais complexo, sua equipe precisará, além das habilidades óbvias em código, começar a se comunicar com todas essas áreas. É injusto perguntar a essas pessoas o que é mais fácil e rápido de fazer dentro da sua base de código, para que elas possam planejar corretamente, sua equipe começará a ir às reuniões e poderá explicar. Infelizmente, você precisará começar a estimar suas histórias, que às vezes são negligenciadas em empresas menores. Desde a codificação e combate a incêndios, agora você precisa de pessoas que possam ajudar os negócios mais de perto, lubrificando os motores do todo. Sua equipe de desenvolvimento também precisará interagir com as operações, construindo soluções juntas, para que o ambiente de produção permaneça saudável e sustentável.
 
-For big companies, take the medium size problems and make them even bigger, and throw the famous legacy systems in the scenario. Your dev team will need to get reeeeeally good at documentation and communication and will need to learn the skills to handle the coordination of features delivery, the process needed to organize many teams working on the same code base and the overall complexity of all systems working together. In such an environment, you can see your dev team working in the whole company. Helping in the business decisions, estimating the deliverables and coordinating the the order in which to attack the tasks. Helping in the outages and improving the preventive maintenance to mitigate them. Oh, and also building new features.
+Para grandes empresas, pegue os problemas de tamanho médio e aumente-os ainda mais e jogue os famosos sistemas legados no cenário. Sua equipe de desenvolvimento precisará ser realmente boa em documentação e comunicação e precisará aprender as habilidades para lidar com a coordenação da entrega de recursos, o processo necessário para organizar muitas equipes trabalhando na mesma base de código e a complexidade geral de todos os sistemas trabalhando juntos . Nesse ambiente, você pode ver sua equipe de desenvolvedores trabalhando em toda a empresa. Ajudando nas decisões de negócios, estimando as entregas e coordenando a ordem na qual atacar as tarefas. Ajudando nas interrupções e melhorando a manutenção preventiva para mitigá-las. Ah, e também criando novos recursos.
 
-Given the huge mutability of the job description, one question comes back. 
+Dada a enorme mutabilidade da descrição do trabalho, uma pergunta volta.
 
-#### How do you measure?
+#### Como você mede?
 
-It is such a wide array of possibilities that it is almost impossible to mathematically judge who is a good or who is a bad developer. Joe might have fewer commits, but that is because he is teaching the less experienced ones. Julia fails at most of her estimates, but is the quicker to solve production outages. Bill is able to break the product area requests in nice sized histories. Mary is the most resourceful coder. Pan is the best code reviewer.
+É uma gama tão ampla de possibilidades que é quase impossível julgar matematicamente quem é um bom ou quem é um desenvolvedor ruim. Joe pode ter menos confirmações, mas isso é porque ele está ensinando as menos experientes. Julia falha na maioria de suas estimativas, mas é mais rápida em resolver interrupções na produção. Bill é capaz de quebrar as solicitações da área do produto em históricos de bom tamanho. Mary é a codificadora mais engenhosa. Pan é o melhor revisor de códigos.
 
-The only way that worked in my experience, in both measuring the good developers and helping them improve was **constant** feedback, both for pairs, and from the whole team.
+A única maneira que funcionou na minha experiência, ao medir os bons desenvolvedores e ajudá-los a melhorar, foi o feedback constante, tanto para pares quanto para toda a equipe.
 
-#### Feedback 
+#### Comentários
 
-When it comes to feedback, the closer the better. For a single developer, it's nice to have the feedback from another area, it's important to have the feedback from another team, it's necessary to have feedback from the manager and it's vital to have from her/his pairs. It's the manager job to collect these feedbacks to be able to evaluate her/him, and be able to mentor the individual to better themselves.
+Quando se trata de feedback, quanto mais próximo, melhor. Para um único desenvolvedor, é bom ter o feedback de outra área, é importante ter o feedback de outra equipe, é necessário ter o feedback do gerente e é vital ter de seus pares. É tarefa do gerente coletar esses feedbacks para poder avaliá-lo e orientar o indivíduo para melhorar a si mesmo.
 
-I like the 360 feedback format, but it is too time consuming, making it almost impractical as a constant feedback loop. Besides, such a meeting can have a negative impact in more anxious people, therefore it is better to collect the information separately.
+Gosto do formato de feedback 360, mas consome muito tempo, tornando-o quase impraticável como um loop de feedback constante. Além disso, essa reunião pode ter um impacto negativo em pessoas mais ansiosas, portanto, é melhor coletar as informações separadamente.
 
-For inter areas feedbacks, a message or email is "good enough", if you don't have the time. Send a message and politely ask about the team collaboration. Make it clear that it is for feedback purpose, and that, in this case, more information is better than less.
+Para feedbacks entre áreas, uma mensagem ou e-mail é "bom o suficiente", se você não tiver tempo. Envie uma mensagem e pergunte educadamente sobre a colaboração da equipe. Deixe claro que é para fins de feedback e que, nesse caso, mais informações são melhores que menos.
 
-For another team, message is good, but direct contact is better. Ask them the same questions and be clear about the objective. Take notes about opinions or problems raised.
+Para outra equipe, a mensagem é boa, mas o contato direto é melhor. Faça as mesmas perguntas e seja claro sobre o objetivo. Faça anotações sobre opiniões ou problemas levantados.
 
-Inside the team, I like two formats. One open, which is sometimes called "Fast Feedback", where the team meets and, in pairs, say the good points and the "points to be improved" one to another. The other one is closed, the team meets without the evaluated member and lists the same points. That is useful for team members that are too shy to criticize or the "good guys" that, given their social skills, it is hard to point problems face to face.
+Dentro da equipe, eu gosto de dois formatos. Um aberto, que às vezes é chamado de "Feedback Rápido", onde a equipe se reúne e, em pares, diz os pontos positivos e os "pontos a serem aprimorados" um para o outro. O outro está fechado, a equipe se reúne sem o membro avaliado e lista os mesmos pontos. Isso é útil para os membros da equipe que são tímidos demais para criticar ou para os "mocinhos" que, dadas suas habilidades sociais, é difícil apontar problemas frente a frente.
 
-With all this material in hand, it is possible to schedule one-on-ones meetings with the team members and face the problems or congratulate the performance. It's possible to, even inside a team, assess individual performance. It's a lot more personal than numbers, so there's always chances of errors and mistakes, but it's the closest thing you can get of real world developer performance.
+Com todo esse material em mãos, é possível agendar reuniões individuais com os membros da equipe e enfrentar os problemas ou parabenizar o desempenho. É possível, mesmo dentro de uma equipe, avaliar o desempenho individual. É muito mais pessoal do que números, portanto sempre há chances de erros e erros, mas é a coisa mais próxima que você pode obter do desempenho do desenvolvedor no mundo real.
